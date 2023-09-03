@@ -1,0 +1,156 @@
+   
+.bg {
+    animation:slide 3s ease-in infinite alternate-reverse;
+    background-image: linear-gradient(40deg, rgba(38, 40, 38, 0.973) 50%, rgb(0, 0, 0) 30%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:8s;
+  }
+  
+  
+  
+  
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-15%);
+    }
+    50% {
+      transform:translateX(55%);
+    }
+    75% {
+      transform:translateX(-55%);
+    }
+
+    100% {
+      transform:translateX(25%);
+    }
+  }
+
+/*
+	.b1{
+
+		animation: blink 2s linear 1;
+	}
+@keyframes blink{
+0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
+}
+*/
+
+.glow{
+  
+  color:rgb(0, 214, 243);
+  
+  animation-name:glow;
+  animation-duration:0.50s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+  
+
+  position: relative;
+}
+
+@keyframes glow{
+  from{text-shadow:0px 0px 5px #ce1a1a,0px 0px 5px #e40219;}
+  to{text-shadow:0px 0px 20px #1aff00,0px 0px 20px #4c00ff;}
+}
+
+
+
+
+  .p1{
+    text-align: center;
+    font-size: 50px;
+    
+  }
+
+  .a {
+  
+  
+  width:auto;
+  height: auto;
+  display: flex;
+  text-align: center;
+  
+  
+  
+}
+#counter {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+margin-left: auto;
+margin-right: auto;
+  
+  
+  
+  box-shadow: inset 0 0 10px #000000;
+}
+#loader {
+  color: #00bbff;
+}
+
+.c {
+  width: 270px;
+  height: 300px;
+  border-radius: 10px;
+margin-left: auto;
+margin-right: auto;
+  
+  
+  
+  box-shadow: inset 0 0 10px #000000f4;
+}
+
+.num{
+  text-align: center;
+  font-size: 40px;
+  
+}
+
+.ab{
+  
+  font-size: 40px;
+  
+}
+
+.pre{
+  text-align:right ;
+  font-size: 40px;
+  margin-top: -140px;
+}
+
+.q{
+margin-left: 25px;
+font-size: 25px;
+
+}
+
+.w{
+  margin-left: 225px;
+font-size: 25px;
+
+
+}
+
+.b2{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  border-radius: 10px;
+  background:#ffffff8a;
+  border : solid rgba(8, 8, 8, 0.921)  6px;
+  background-color: rgba(5, 239, 103, 0.695);
+}
